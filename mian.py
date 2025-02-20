@@ -1,5 +1,7 @@
 def helo():
-    print("hi")
+    return "hi"
+
 def byte():
-    print("byte")
-print(helo())
+    return "byte"
+
+print(helo())  # Now prints only "hi"
